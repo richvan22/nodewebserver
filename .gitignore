@@ -1,2 +1,8 @@
 node_modules/
 server.log
+.vs/
+bin/
+no
+no.pub
+node-web-server.njsproj
+obj/

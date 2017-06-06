@@ -4,8 +4,8 @@
   "description": "NodejsWebApp3",
   "main": "server.js",
   "author": "Richy",
-  "scripts": {
-    "start": "node server.js"
+  "scripts": { // i.e npm start   to run  server.js
+    "start": "node server.js" //command that starts app
   },
   "license": "ISC",
   "dependencies": {
