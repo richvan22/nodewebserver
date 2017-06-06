@@ -36,7 +36,6 @@ hbs.registerHelper('screamIt', (text) => {
     return text.toUpperCase();
 }); 
 
-hbs.registerHelper()
 app.get('/', (req, res) => {
     res.render('home.hbs', { //optional 2nd arg to pass dynamic properties used in declared file.
         pageTitle: 'Home Page',
@@ -50,6 +49,11 @@ app.get('/about', (req, res) => {
     });
 });
 
+app.get('/portfolio', (req, res) => {
+    res.render('portfolio.hbs', { 
+        pageTitle: 'Portfolio Page',
+    });
+});
 
 app.listen(port, () => {
     console.log(`serving up files... on ${port}`);
